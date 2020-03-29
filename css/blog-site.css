@@ -74,6 +74,14 @@ em {
   opacity: 1;
 }
 
+.show-on-hover button {
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
 article .fill-opacity {
   opacity: 1;
 }
