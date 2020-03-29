@@ -1,0 +1,85 @@
+@import "./normalize.css";
+@import "./blog-site-layout.css";
+@import "./nav.css";
+@import "./footer.css";
+
+
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+.blog_post_image {
+  width: 100%;
+  /* max-width: 100%; */
+  height: 300px;
+}
+
+.item1 {
+  background-color: #FFEAD9;
+}
+
+.item2 {
+  background-image: url("../images/jollof-rice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.static-posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item3 {
+  background-image: url("../images/covid.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item4 {
+  background-image: url("../images/programming.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item5 {
+  background-image: url("../images/athens.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+em {
+  color: gray
+}
+
+.show-on-hover {
+  padding: 30px;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  opacity: 0.7;
+  width: 300px;
+}
+
+.show-on-hover:hover {
+  opacity: 1;
+}
+
+article .fill-opacity {
+  opacity: 1;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 1;
+}

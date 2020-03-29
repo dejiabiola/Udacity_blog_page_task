@@ -1,0 +1,199 @@
+@import "./normalize.css";
+@import "./nav.css";
+@import "./blog-post-layout.css";
+@import "./footer.css";
+
+.blog_post_image {
+  width: 100%;
+  /* max-width: 100%; */
+  height: 300px;
+}
+
+.grid-container {
+  margin-top: 50px;
+  margin-bottom: 450px;
+}
+
+.pad {
+  padding: 15px;
+  padding-bottom: 50px;
+}
+
+em {
+  color: gray;
+}
+
+h1, h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#black {
+  color: black;
+}
+
+hr {
+  width: 100%;
+  margin: 5px auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.quote {
+  background-color: #86A578;
+  border-radius: 30px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 30px;
+}
+
+aside h3 {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  padding-top: 50px;
+}
+
+aside div {
+  margin-bottom: 10px;
+}
+
+.profile {
+  background-color: grey;
+  padding: 10px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+.profile p:nth-of-type(1) {
+  text-decoration: underline;
+}
+
+ol {
+  margin-left: 14px;
+  margin-bottom: 40px;
+}
+
+li {
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.button {
+  border-radius: 40px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+
+#previous {
+  border: 1px solid grey;
+  color: grey;
+  margin-right: 30px;
+  
+}
+
+#previous:hover {
+  cursor: not-allowed;
+}
+
+#next {
+  border: 1px solid #0150AA;
+}
+
+#next:hover {
+  background-color: #0150AA;
+}
+
+.item2 {
+  background-image: url("../images/jollof-rice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.item3 {
+  background-image: url("../images/covid.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.item4 {
+  background-image: url("../images/programming.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+article {
+  margin: 15px;
+}
+
+.static-posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-on-hover {
+  padding: 30px;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  opacity: 0.7;
+  width: 300px;
+}
+
+.show-on-hover:hover {
+  opacity: 1;
+}
+
+article .fill-opacity {
+  opacity: 1;
+}
+
+.related-posts-section {
+  width: 1200px;
+  margin: 20px auto;
+  margin-top: 50px;
+}
+
+.related-posts-heading {
+  text-align: center;
+  margin-bottom: 0px;
+}
